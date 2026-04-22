@@ -12,5 +12,7 @@ namespace TeamWebAPI.Data
 
         public DbSet<TeamMember> TeamMembers => Set<TeamMember>();
         public DbSet<Hobby> Hobbies => Set<Hobby>();
+        public DbSet<VideoGame> VideoGames => Set<VideoGame>();
+
     }
 }
