@@ -1,7 +1,10 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using TeamWebAPI.Models;
+<<<<<<< HEAD
 using System;
+=======
+>>>>>>> 520b619d87ca1b95d9e1f7f10a9b12d7caaa0303
 
 namespace TeamWebAPI.Data
 {
@@ -13,6 +16,7 @@ namespace TeamWebAPI.Data
 
         public DbSet<TeamMember> TeamMembers => Set<TeamMember>();
         public DbSet<Hobby> Hobbies => Set<Hobby>();
+<<<<<<< HEAD
         public DbSet<BreakFastFoods> BreakFastFoods => Set<BreakFastFoods>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -51,5 +55,7 @@ namespace TeamWebAPI.Data
                 }
                 );
         }
+=======
+>>>>>>> 520b619d87ca1b95d9e1f7f10a9b12d7caaa0303
     }
 }
